@@ -7,11 +7,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdulSayyed/suliblog.git"
+    "url": "git+https://github.com/SulaimanSayyed21/suliblog.git"
   },
-  "author": "Abdul Ghafoor Sayyed <s.ghafoor@outlook.com>",
+  "author": "Sulaiman Sayyed <sullisayyed21@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/AbdulSayyed/",
+  "homepage": "https://github.com/SulaimanSayyed21/",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "autoprefixer": "^10.4.14",
