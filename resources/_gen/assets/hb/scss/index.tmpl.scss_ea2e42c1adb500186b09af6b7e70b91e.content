@@ -12553,8 +12553,8 @@ a img {
 }
 
 .hb-blog-sidebar-profile-img {
-  height: 100px;
-  width: 100px;
+  height: 285px;
+  width: 285px;
   -o-object-fit: cover;
      object-fit: cover;
 }

@@ -10,7 +10,7 @@ tags:
   - Linux
   - Ubuntu
 images:
-featured: true
+featured: false
 authors:
   - razonyang
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial"
+title: "Welcome"
 # linkTitle:
 date: 2023-03-31T11:47:31+08:00
 draft: false
@@ -12,17 +12,15 @@ nav_weight: 1000
 #   name: toggles
 #   color: '#e24d0e'
 series:
-  - Tutorial
+
 categories:
-  - Content
+
 tags:
-  - Shortcode
-  - Code Block
-  - KaTex
-  - Mermaid
-  - Math
-  - Diagram
+
+featured: true
+
 images:
+ - "wel.webp"
 # menu:
 #   main:
 #     weight: 100
@@ -31,93 +29,30 @@ images:
 #         vendor: bs
 #         name: book
 #         color: '#e24d0e'
+
 authors:
   - razonyang
   - hugomods
 ---
 
-A simple tutorial that offers samples and code snippets show how to create rich content, please refer to the [documentation](https://hbstack.dev/en/) for more usage.
+# Welcome to SuliBlogs!
 
-<!--more-->
+Hello, and welcome to **SuliBlogs**!
 
-## Installation
+I'm excited to share this space with you as I dive into the fascinating world of computer science. Here, you'll find a mix of blog posts, study notes, project breakdowns, and insights I've gained along my journey. Whether you're a student, an aspiring developer, or just curious about tech, I hope you'll find something useful and inspiring here.
 
-**Please note that this theme requires Go installation the newest extended Hugo version.**
+### What to Expect
 
-Please check out the [installation](https://hbstack.dev/en/docs/getting-started/installation/) section.
+1. **Computer Science Blogs**: I’ll be covering topics that I'm learning and exploring, from programming concepts and coding best practices to the latest trends in tech. These posts will break down complex ideas in a way that’s approachable for everyone.
 
-## Create Content
+2. **Study Notes For ALEVEL Computer Science**: As I go through my A-levels, I'll share my notes on essential computer science concepts. These will be especially helpful for anyone studying similar topics or looking to reinforce their understanding of foundational principles.
 
-```sh
-hugo new blog/new-post/index.md
-```
+3. **A Step-by-Step Guide to My A466 Project**: For my A-level Computer Science project (A466), I'll be documenting every step I took—from initial planning to the final build. This guide is for anyone interested in tackling large projects, whether it’s for school or personal growth, and will cover everything from design choices to code implementation.
 
-The created content is in draft stage, you'll need to publish the content by removing the `draft` or setting the `draft` as `true` on front matter. Learn on on [content](https://hbstack.dev/en/docs/content/).
+### And Much More…
 
-## Code Block
+This blog is a space to share and learn together. I hope to make it a valuable resource for anyone passionate about computer science. Thank you for visiting, and feel free to reach out with questions or ideas. Let’s explore the world of tech together!
 
-````markdown
-```[lang]
-CODE
-```
-````
+---
 
-{{% bootstrap/collapse "[lang]" %}}
-Replace `[lang]` with corresponding language identifier, such as `js`, `php`, `go`, `html` and so on.
-{{% /bootstrap/collapse %}}
-
-```js
-console.log('Hello world!')
-```
-
-### Code Syntax Highlighting Styles
-
-HB offers dozens of syntax highlighting styles, find more on [syntax highlighting styles modules](https://hbstack.dev/en/docs/modules/syntax-highlighting/).
-
-Import the desired style module and restart the Hugo server (load module's assets fully) to preview.
-
-{{< bootstrap/config-toggle hugo >}}
-module:
-  imports:
-    - path: github.com/hbstack/syntax-highlighting/styles/github-dark
-{{< /bootstrap/config-toggle >}}
-
-## KaTex
-
-````markdown
-```katex
-MATH
-```
-````
-
-```katex
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-```
-
-Read more on [KaTex Usage](https://hugomods.com/en/docs/content/katex/#usage).
-
-## Mermaid
-
-````markdown
-```mermaid
-DIAGRAM
-```
-````
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
-
-Read more on [Mermaid Usage](https://hugomods.com/en/docs/content/mermaid/#usage).
-
-## Shortcodes
-
-Learn more on [shortcodes](https://hbstack.dev/en/docs/content/shortcodes/).
-
-## Deployment
-
-See [deployment](https://hbstack.dev/en/docs/deployment/) for deploying your site.
+Welcome to SuliBlogs—where every post is a new step in the journey!
