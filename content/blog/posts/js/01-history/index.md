@@ -80,7 +80,7 @@ By now you should  have some idea about  this scripting language and its host en
 
 Before we finish this topic, let's look at some popular JavaScript engines, the word engine was probably used instead of a program, because of its core functionality. It is this program which runs the JavaScript code when it sees it in the host environment.
 
-The first engine was created by the  JavaScript author Brendan Eich at Netscape Communications for Netscape Navigator, this engine is now an ECMA-262 edition-3 compliant that is, it conforms to the standard of ECMA-262 third edition. The code name for this engine was and still is Spider Monkey written in C++. 
+The first engine was created by the  JavaScript authors Brendan Eich at Netscape Communications for Netscape Navigator, this engine is now an ECMA-262 edition-3 compliant that is, it conforms to the standard of ECMA-262 third edition. The code name for this engine was and still is Spider Monkey written in C++. 
 
 Another engine written by Norris Boyd is called Rhino implemented in Java language. The most popular one these days is known as V8 from Google which excelled the performance when compared to Mozilla's engine  Trace Monkey and others. It is also used in Node js and gradually providing support for ECMAScript 6. Another popular used by apple in safari browser is a WebKit. Since who uses what may change with time thus, it is best to find out about them by searching the net.
 

@@ -13,6 +13,9 @@ series:
 images:
   - "bash.jpg"
 featured: true 
+
+authors: 
+  - Sulaiman
 ---
 
 ## A Brief History of Bash

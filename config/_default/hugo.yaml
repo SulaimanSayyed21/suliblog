@@ -53,7 +53,7 @@ related:
     weight: 60
   - name: series
     weight: 60
-  - name: authors
+  - name: author
     weight: 10
   - name: date
     weight: 10

@@ -15,7 +15,7 @@ hb:
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      # github: hbstack
+      github: https://github.com/SulaimanSayyed21
       # twitter: razonyang
       # rss: true
       # mastodon: https://techhub.social/@hbstack
@@ -24,7 +24,7 @@ hb:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       color: true # when false, remove the color of social icons.
-      # github: hbstack  # Give some value to see if it points to sulaiman blog ?
+      github: https://github.com/SulaimanSayyed21  # Give some value to see if it points to sulaiman blog ?
       # twitter: razonyang
       # rss: true
       # mastodon: https://techhub.social/@hbstack

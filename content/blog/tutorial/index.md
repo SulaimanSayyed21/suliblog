@@ -31,8 +31,7 @@ images:
 #         color: '#e24d0e'
 
 authors:
-  - razonyang
-  - hugomods
+  - Sulaiman
 ---
 
 # Welcome to SuliBlogs!

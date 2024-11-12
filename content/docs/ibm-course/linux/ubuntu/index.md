@@ -12,7 +12,7 @@ tags:
 images:
 featured: false
 authors:
-  - razonyang
+  - Sulaiman
 ---
 
 This guide show you how to install on Ubuntu.
