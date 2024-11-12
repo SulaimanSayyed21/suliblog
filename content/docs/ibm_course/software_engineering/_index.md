@@ -1,7 +1,7 @@
 ---
 date: 2024-11-05T22:42:23+08:00
 title: Installation 
-linkTitle: IBM Course
+linkTitle: Software Engineering
 nav_weight: 2
 series:
   - Guide

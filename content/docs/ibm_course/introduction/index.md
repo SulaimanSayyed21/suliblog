@@ -71,4 +71,7 @@ Three common approaches to software development are the **Waterfall**, **V-Model
 
 ![waterfall](sdm.png) 
 
+### FAQ
+
+{{< bs/accordion data="software_engineering.faq" flush=true >}}
 
