@@ -178,9 +178,31 @@ The `echo` command prints the specified text to the terminal.
 echo "Hello, World!"
 ```
 
+#### Example: Using `echo` with Environment Variables
+
+The `echo` command can be used to display the values of variables. For example:
+
+```bash
+echo $PATH
+```
+
+This prints the value of the `$PATH` environment variable, which specifies the directories the shell searches for executable files.
+
+#### Explanation of `$PATH`
+- `$PATH` is an **environment variable** containing a colon-separated list of directories.
+- When you type a command, the shell looks in these directories to find the executable.
+- You can view or modify it using:
+  ```bash
+  echo $PATH
+  export PATH=$PATH:/new/directory
+  ```
+  ```
+
+
 ---
 
 ### `grep`
+
 ```bash
 grep [pattern] [file]
 ```
@@ -234,4 +256,75 @@ The `exit` command closes the current terminal session.
 clear
 ```
 The `clear` command clears the terminal screen, making it easier to view the next set of outputs.
+
+
+
+## The `.bashrc` File
+
+The `.bashrc` file is a shell script that runs whenever a new terminal session is started in interactive mode. It is commonly used to customize your shell environment by:
+
+- Defining aliases.
+- Setting environment variables.
+- Modifying the `$PATH`.
+- Adding custom functions.
+
+To edit your `.bashrc` file, use:
+
+```bash
+nano ~/.bashrc
+code .bashrc
 ```
+
+After making changes, reload the file to apply them:
+
+```bash
+source ~/.bashrc
+```
+
+---
+
+
+
+## Advanced Bash-Scripting Guide
+
+### Cleaning Up Log Files
+
+Below is an example script named `cleanup` that clears the log files in the `/var/log` directory. This script must be run as the root user to have the necessary permissions.
+
+#### **Script: `cleanup`**
+```bash
+# Cleanup
+# Run as root, of course.
+
+cd /var/log
+cat /dev/null > messages
+cat /dev/null > wtmp
+echo "Log files cleaned up."
+```
+
+#### **Explanation**
+1. **`cd /var/log`**: Changes the working directory to `/var/log`, where system log files are typically stored.
+2. **`cat /dev/null > messages`**: Empties the `messages` log file by redirecting the output of `/dev/null` (an empty data source) to the file.
+3. **`cat /dev/null > wtmp`**: Empties the `wtmp` file, which tracks user logins.
+4. **`echo "Log files cleaned up."`**: Prints a confirmation message after cleaning up the log files.
+
+#### **Usage**
+1. Save the script as `cleanup` in an appropriate location (e.g., `/usr/local/bin/`).
+2. Make it executable:
+   ```bash
+   chmod +x cleanup
+   ```
+3. Run the script with root privileges:
+   ```bash
+   sudo ./cleanup
+   ```
+
+---
+
+#### **Important Notes**
+- This script permanently clears the content of the specified log files. Ensure you back up any necessary logs before running it.
+- You can customize the script to include additional log files or directories as needed.
+
+```
+
+adding aliases to config
