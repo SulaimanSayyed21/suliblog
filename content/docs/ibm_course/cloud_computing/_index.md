@@ -1,8 +1,8 @@
 ---
 date: 2024-11-05T22:42:23+08:00
-title: Installation 
+title: Cloud computing 
 linkTitle: Cloud computing
-nav_weight: 3
+nav_weight: 2
 series:
   - Guide
  
@@ -16,3 +16,4 @@ nav_icon:
 
 ---
 
+sdgsdg
